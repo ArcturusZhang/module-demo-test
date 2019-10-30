@@ -1,8 +1,6 @@
 package bznet
 
-import "github.com/ArcturusZhang/module-demo-test/version"
-
 func Version() string {
-	return version.Number
+	return "1.0.0"
 }
 
