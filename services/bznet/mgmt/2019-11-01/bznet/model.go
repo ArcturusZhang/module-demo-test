@@ -1,6 +1,6 @@
 package bznet
 
-type BzNetClient struct {
+type BzNetsClient struct {
 
 }
 
@@ -9,11 +9,11 @@ type Bznet struct {
 	Age int
 }
 
-func (client BzNetClient) Create(net Bznet) error {
+func (client BzNetsClient) Create(net Bznet) error {
 	return nil
 }
 
-func (client BzNetClient) Get() Bznet {
+func (client BzNetsClient) Get() Bznet {
 	return Bznet{
 		Nmae: "Module-BzNet",
 		Age:  10,

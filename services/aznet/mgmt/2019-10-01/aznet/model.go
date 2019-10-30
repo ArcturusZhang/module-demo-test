@@ -19,6 +19,6 @@ func (client AzNetsClient) Create(net AzNet) error {
 func (client AzNetsClient) Get() AzNet {
 	return AzNet{
 		Name: "Module-AzNet",
-		ID:   10,
+		ID:   20,
 	}
 }
